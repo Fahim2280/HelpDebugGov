@@ -20,3 +20,4 @@
 * `dotnet ef migrations remove` - Remove the last migration
 * `docker compose up` - Run the database in a docker container
 * `docker compose rm -fs && docker compose up` - Reset the database
+* `dotnet new webapi -o HelpDebugGov --no-https -f net7.0` - The way this project was created
