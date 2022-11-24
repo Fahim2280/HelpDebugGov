@@ -9,6 +9,13 @@
 
 ### How to run
 
+``` bash
+dotnet tool install --global dotnet-ef // Install EF Core CLI
+docker compose up // Run Postgres
+dotnet ef database update // Create database
+```
+
+then,
 `dotnet run` or `dotnet watch run`
 
 ### Commands / QuickAccess
